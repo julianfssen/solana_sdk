@@ -11,5 +11,9 @@ require "solana_sdk"
 # require "pry"
 # Pry.start
 
+def devnet_connection
+  @devnet_connection ||= SolanaSdk::Connection.new(devnet: true)
+end
+
 require "irb"
 IRB.start(__FILE__)

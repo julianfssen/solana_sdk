@@ -1,0 +1,37 @@
+PATH
+  remote: .
+  specs:
+    solana_sdk (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    debug (1.9.2)
+      irb (~> 1.10)
+      reline (>= 0.3.8)
+    io-console (0.7.2)
+    irb (1.12.0)
+      rdoc
+      reline (>= 0.4.2)
+    minitest (5.22.2)
+    psych (5.1.2)
+      stringio
+    rake (13.1.0)
+    rdoc (6.6.3.1)
+      psych (>= 4.0.0)
+    reline (0.5.1)
+      io-console (~> 0.5)
+    stringio (3.1.0)
+
+PLATFORMS
+  arm64-darwin-21
+  ruby
+
+DEPENDENCIES
+  debug
+  minitest (~> 5.0)
+  rake (~> 13.0)
+  solana_sdk!
+
+BUNDLED WITH
+   2.5.3
